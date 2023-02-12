@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 'poppins', sans-serif ;
+  font-family: 'Poppins', sans-serif ;
 }
 
 body {
@@ -84,13 +84,15 @@ body {
 }
 
 .inputBox input {
+  position: relative;
   padding: 20px 10px 10px;
   background: transparent;
   border: none;
   outline: none;
   color: #23242a;
   font-size: 1em;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
+  z-index: 20;
 }
 
 .inputBox span {
@@ -108,7 +110,7 @@ body {
 .inputBox input:valid ~ span,
 .inputBox input:focus ~ span {
   color: #45f3ff;
-  transform: translateY(-34px);
+  transform: translateX(-10px) translateY(-34px);
   font-size: 0.75em;
 }
 
@@ -122,4 +124,40 @@ body {
   background-color: #45f3ff;
   transition: 0.5s;
   pointer-events: none;
+  z-index: 10;
+}
+
+.inputBox input:valid ~ i,
+.inputBox input:focus ~ i {
+  height: 44px;
+  border-radius: 4px;
+}
+
+/*para se cadastrar*/
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  margin: 10px 0;
+  color: #8f8f8f;
+  text-decoration: none;
+  font-size: 0.75em;
+}
+
+.links a:hover ,
+.links a:nth-child(2) { /*essa propriedade serve pra dizer qual dos itens pra ficar com a cor fixa*/
+  transition: 1s;
+  color: #45f3ff;
+}
+
+input[type="submit"]{
+  border: none;
+  background-color: #45f3ff;
+  padding: 11px 25px;
+  width: 100px;
+  border-radius: 4px;
+  font-weight: 600;cursor: pointer;
 }
