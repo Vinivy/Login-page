@@ -93,6 +93,7 @@ body {
   font-size: 1em;
   letter-spacing: 0.3em;
   z-index: 20;
+  width: 100%;
 }
 
 .inputBox span {
@@ -141,7 +142,7 @@ body {
 }
 
 .links a {
-  margin: 10px 0;
+  margin: 20px 0;
   color: #8f8f8f;
   text-decoration: none;
   font-size: 0.75em;
@@ -159,5 +160,17 @@ input[type="submit"]{
   padding: 11px 25px;
   width: 100px;
   border-radius: 4px;
-  font-weight: 600;cursor: pointer;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/*Responsivel para os celulares*/
+@media (max-width: 500px) {
+  .inputBox input:valid ~ span,
+  .inputBox input:focus ~ span {
+    color: #45f3ff;
+    transform: translateX(-10px) translateY(-34px);
+    font-size: 0.75em;
+  }
+  
 }
