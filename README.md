@@ -1,4 +1,4 @@
-# 🌟 Projeto de Página de Login Animada 🌟
+# Página de Login 
 
 ## 😎 Introdução
 Seja bem-vindo ao nosso projeto de página de login! Este é um espaço onde a funcionalidade encontra a arte digital. Com foco em **animações de transição** e **interatividade**, criamos uma experiência envolvente para o usuário, valorizando cada detalhe.
