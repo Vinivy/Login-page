@@ -15,13 +15,13 @@ Seja bem-vindo ao nosso projeto de página de login! Este é um espaço onde a f
 - **CSS3**: Estilos deslumbrantes e animações criativas.
 - **JavaScript**: Controle de interatividade e lógica de animações.
 
-## 🚀 Como Utilizar
-1. **Clone o Repositório**:
-   ```bash
-   git clone https://github.com/Vinivy/Login-page.git
+## 🚀 Visualize a Pagina
+**https://vinivy.github.io/Login-page/**
    
 ## 📁 Estrutura 
 Login-page/
-├── index.html       # Estrutura principal da página
-├── style.css        # Estilos e animações
-├── script.js        # Lógica interativa
+├── index.html 
+├── style.css  
+├── script.js  
+
+
